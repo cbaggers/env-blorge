@@ -6,6 +6,6 @@
   :license  "Specify license here"
   :version "0.0.1"
   :serial t
-  :depends-on (:binary-structures :memory-regions)
+  :depends-on (:binary-structures :memory-regions :cffi)
   :components ((:file "package")
                (:file "bootstrap-env")))
